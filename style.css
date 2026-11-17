@@ -144,3 +144,17 @@ button {
     font-size: 50px;
 }
 
+@media (max-width: 600px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+}
+
